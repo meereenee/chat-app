@@ -1,0 +1,40 @@
+.message__wrapper {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.message__wrapper.sent {
+  flex-direction: row-reverse;
+}
+
+.message__wrapper.received {
+  flex-direction: row;
+}
+.message {
+  border-radius: 0.8rem;
+  padding: 10px;
+  margin: 5px;
+  min-width: 50px;
+  max-width: 300px;
+  position: relative;
+}
+
+.message.sent {
+  text-align: right;
+  background-color: coral;
+  flex-direction: row-reverse;
+}
+
+.message.received {
+  text-align: left;
+  background-color: cornflowerblue;
+  flex-direction: row;
+}
+
+.message .timestamp {
+  font-size: .5rem;
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
