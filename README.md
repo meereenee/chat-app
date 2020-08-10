@@ -2,7 +2,7 @@
 
 Run websocket server:
 ```sh
-cd server && yarn start
+cd server && yarn && yarn start
 ```
 
 Run Chat app:
