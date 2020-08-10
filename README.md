@@ -7,7 +7,7 @@ cd server && yarn && yarn start
 
 Run Chat app:
 ```sh
-yarn start
+yarn && yarn start
 ```
 
 Visit in your browser: `http://localhost:1234`
